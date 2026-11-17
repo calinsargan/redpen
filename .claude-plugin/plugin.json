@@ -1,6 +1,6 @@
 {
   "name": "redpen",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Flags spelling, punctuation and capitalization mistakes in your prompts without fixing them, so you learn instead of leaning on autocorrect. Three levels: high, medium, low.",
   "author": { "name": "calinsargan" },
   "homepage": "https://github.com/calinsargan/redpen",
