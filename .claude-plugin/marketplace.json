@@ -1,0 +1,14 @@
+{
+  "name": "redpen",
+  "description": "Red Pen: a Claude Code plugin that flags spelling and mechanics mistakes in your prompts.",
+  "owner": {
+    "name": "calinsargan"
+  },
+  "plugins": [
+    {
+      "name": "redpen",
+      "source": "./",
+      "description": "Flags spelling, punctuation and capitalization mistakes in your prompts without fixing them."
+    }
+  ]
+}
