@@ -2,11 +2,11 @@
 # Red Pen — a UserPromptSubmit hook that asks Claude to flag spelling and
 # mechanics mistakes in each prompt, without fixing them for you.¹
 #
-# Level: $REDPEN_LEVEL, else ~/.claude/redpen-level, else "high".
+# Level: $REDPEN_LEVEL, else ~/.claude/redpen-level, else "low".
 # Levels: high | medium | low | off
 
 LEVEL="${REDPEN_LEVEL:-$(cat "$HOME/.claude/redpen-level" 2>/dev/null)}"
-LEVEL="$(printf '%s' "${LEVEL:-high}" | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')"
+LEVEL="$(printf '%s' "${LEVEL:-low}" | tr -d '[:space:]' | tr '[:upper:]' '[:lower:]')"
 
 case "$LEVEL" in
   off) exit 0 ;;

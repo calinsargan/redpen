@@ -26,9 +26,9 @@ Restart Claude Code. Your next prompt gets checked.
 
 | Level | Standard | What it flags |
 |---|---|---|
-| `high` (default) | School essay | Everything: spelling, capitals (sentence start, "I", names), all punctuation including final periods, grammar, and slang like "yo", "gonna" or "ok" |
+| `high` | School essay | Everything: spelling, capitals (sentence start, "I", names), all punctuation including final periods, grammar, and slang like "yo", "gonna" or "ok" |
 | `medium` | Work email or Slack | Spelling, apostrophes (lets → let's), "I", capitals at sentence start and on names, wrong words (their/there), sloppy grammar. A missing final period, lowercase bullets and "ok" are fine. |
-| `low` | Texting a friend | Only typos, misspellings, and wrong words that change the meaning (their/there, its/it's). All lowercase, no punctuation, "dont" and "u" are fine. |
+| `low` (default) | Texting a friend | Only typos, misspellings, and wrong words that change the meaning (their/there, its/it's). All lowercase, no punctuation, "dont" and "u" are fine. |
 | `off` | | No check |
 
 Change the level with the slash command:

@@ -11,7 +11,7 @@ The Red Pen hook reads its level from `~/.claude/redpen-level`. The `REDPEN_LEVE
 
 Argument: `$ARGUMENTS`
 
-- No argument: run `cat ~/.claude/redpen-level 2>/dev/null || echo "high (default)"` and report the current level, plus one line per level:
+- No argument: run `cat ~/.claude/redpen-level 2>/dev/null || echo "low (default)"` and report the current level, plus one line per level:
   - high: school essay. Capitals, proper nouns, all punctuation, grammar, no slang.
   - medium: professional. Spelling, apostrophes, "I", sentence-start capitals, proper nouns, wrong words. Ignores final periods and casual-but-correct words.
   - low: casual. Only typos, misspellings, and wrong words that change meaning.
